@@ -5,6 +5,11 @@ import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue
 import org.junit.Test
 
+/**
+ * `tiempoRelativo` recibe `ahora` como parámetro, y por eso se puede probar.
+ * Con `System.currentTimeMillis()` adentro, la misma prueba daría otro
+ * resultado cada minuto.
+ */
 class FormatoTest {
 
     private val publicado = "2026-10-07 15:00:00"

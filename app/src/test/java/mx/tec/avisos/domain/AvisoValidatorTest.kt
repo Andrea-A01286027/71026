@@ -4,6 +4,11 @@ import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue
 import org.junit.Test
 
+/**
+ * Las reglas de un aviso, en sus orillas. Un validador casi nunca falla en el
+ * medio («Examen parcial»): falla en el 2 contra el 3, en el 60 contra el 61,
+ * y en lo que parece texto pero son puros espacios.
+ */
 class AvisoValidatorTest {
 
     @Test
